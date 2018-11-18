@@ -52,6 +52,8 @@ end
 #####################################################
 
 def runner
-  #welcome
+  welcome
+  initial_round
+  prompt_user
 end
     
