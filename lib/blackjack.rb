@@ -38,6 +38,8 @@ def hit?(number_current)
   end
   if get_user_input == "h"
     number_current += deal_card
+    elsif get_user_input == "s"
+    
     
 end
 
