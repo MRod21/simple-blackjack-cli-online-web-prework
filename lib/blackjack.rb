@@ -44,6 +44,7 @@ def invalid_command
   until input == "h" || input == "s"
     invalid_command
     prompt_user
+  end
 end
 
 #####################################################
