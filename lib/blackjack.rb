@@ -5,6 +5,7 @@ end
 def deal_card
   20.times do
   puts rand(1..11)
+  end
 end
 
 def display_card_total
