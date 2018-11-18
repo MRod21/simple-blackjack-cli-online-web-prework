@@ -24,8 +24,8 @@ end
 
 def initial_round
   sum = deal_card + deal_card 
-  display_card_total(sum)
-  return sum
+  #display_card_total(card_total)
+  return card_total
 end
 
 def hit?(current_card_total)
@@ -39,7 +39,7 @@ def hit?(current_card_total)
 end
 
 def invalid_command
-  prompt_user
+  #prompt_user
   input = get_user_input
   until input == "h" || input == "s"
     invalid_command
@@ -52,6 +52,6 @@ end
 #####################################################
 
 def runner
-  # code runner here
+  #welcome
 end
     
