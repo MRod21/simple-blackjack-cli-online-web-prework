@@ -35,6 +35,7 @@ def hit?(number_current)
     invalid_command
     prompt_user
     get_user_input
+  end
   if get_user_input == "h"
     
 end
