@@ -38,6 +38,7 @@ def hit?(number_current)
   end
   if get_user_input == "h"
     
+    
 end
 
 def invalid_command
