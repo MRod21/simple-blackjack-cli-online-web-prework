@@ -31,10 +31,6 @@ end
 def hit?(current_card_total)
   prompt_user
   input = get_user_input
-  until input == "h" || input == "s"
-    invalid_command
-    prompt_user
-  end
   if input == "h"
     current_card_total += deal_card
     elsif input == "s"
@@ -43,7 +39,11 @@ def hit?(current_card_total)
 end
 
 def invalid_command
-  
+  prompt_user
+  input = get_user_input
+  until input == "h" || input == "s"
+    invalid_command
+    prompt_user
 end
 
 #####################################################
