@@ -31,6 +31,7 @@ end
 def hit?(number_current)
   prompt_user
   get_user_input
+  until 
   if get_user_input == "h"
     
 end
