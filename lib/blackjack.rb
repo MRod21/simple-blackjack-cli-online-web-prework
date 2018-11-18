@@ -34,7 +34,7 @@ def hit?(number_current)
   until get_user_input == "h" || get_user_input == "s"
     invalid_command
     prompt_user
-    get_user_input
+    input = get_user_input
   end
   if get_user_input == "h"
     number_current += deal_card
